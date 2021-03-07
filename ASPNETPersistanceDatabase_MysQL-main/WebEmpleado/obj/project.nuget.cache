@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G1T1C748Csk64PHdt1slDH572l5y9NwESXY0WX0k9t/twxMLwTOHajW4LX2rswbUR0TZAR9x8uJcbkxHecwAVg==",
+  "dgSpecHash": "wHC0UqW+3PHtcfJDbLpO+8Rk6kLlyv8diNKp8zhN9vEY+NwOiPUvdygpL67m38qhfYsoNdYnEQFIIxATd/pIxw==",
   "success": true,
-  "projectFilePath": "D:\\Angular\\Projects\\CrudAngularEmp_Mysql\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj",
+  "projectFilePath": "D:\\Angular\\Projects\\CrudAngularEmp\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jruan\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jruan\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.2\\microsoft.aspnetcore.jsonpatch.5.0.2.nupkg.sha512",

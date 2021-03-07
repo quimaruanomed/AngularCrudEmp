@@ -34,16 +34,17 @@ namespace WebEmpleado
            
             services.AddTransient<MySqlConnection>(_ => new MySqlConnection(Configuration["ConnectionStrings:Default"]));
             services.AddControllers();
-
+           
       //Método que permite la conexión a la Api desde otras aplicaciones como Angular
-            services.AddCors(options =>
-            {
-                options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader());
-            });
-        }
+      services.AddCors(options =>
+      {
+        options.AddPolicy("CorsPolicy",
+            builder => builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+      });
+    }
+  
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -52,7 +53,7 @@ namespace WebEmpleado
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
             app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Angular\\Projects\\CrudAngularEmp_Mysql\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj": {}
+    "D:\\Angular\\Projects\\CrudAngularEmp\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj": {}
   },
   "projects": {
-    "D:\\Angular\\Projects\\CrudAngularEmp_Mysql\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj": {
+    "D:\\Angular\\Projects\\CrudAngularEmp\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular\\Projects\\CrudAngularEmp_Mysql\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj",
+        "projectUniqueName": "D:\\Angular\\Projects\\CrudAngularEmp\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj",
         "projectName": "WebEmpleado",
-        "projectPath": "D:\\Angular\\Projects\\CrudAngularEmp_Mysql\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj",
+        "projectPath": "D:\\Angular\\Projects\\CrudAngularEmp\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\WebEmpleado.csproj",
         "packagesPath": "C:\\Users\\jruan\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular\\Projects\\CrudAngularEmp_Mysql\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\obj\\",
+        "outputPath": "D:\\Angular\\Projects\\CrudAngularEmp\\ASPNETPersistanceDatabase_MysQL-main\\WebEmpleado\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
