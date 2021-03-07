@@ -1,0 +1,43 @@
+<div class="new mt-3">
+    <div class="col-lg-6">
+      <h3>Listado de Empleados</h3>
+    </div>
+    <div class="col-lg-20">
+                      <button class="btn btn-primary float-end" routerLink='/agregar'>Nuevo Empleado</button>
+</div>
+</div>
+
+<table *ngIf="ListEmpleadosComponent.length > 0 " class="table table-hover mt-3">
+  <thead>
+     <tr>
+       <td>Nombre y Apellidos</td>
+        <td>Posición</td>
+         <td>Salario</td>
+          <td>
+
+          </td>
+           <td>
+
+           </td>
+       </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let Iemploye of ListEmpleadosComponent">
+             <td><a [routerLink]="['/ver', Iemploye.id]">{{ Iemploye.fnameS }}</a>
+            </td>
+              <td>{{ Iemploye.fnameS }}  </td>
+              <td>{{ Iemploye.position }}</td>
+              <td>{{ Iemploye.salary }}</td>
+              <td style ="width:10%;">
+                <button [routerLink]="['/editar', Iemploye.id]" class="btn btn-primary btn-sm float-end">Editar</button>
+              </td>
+              <td style="width: 10%; ">
+                   <button (click)="eliminarEmpleado(Iemploye.id)" class="btn btn-danger btn-sm float-end">Eliminar</button>
+              </td>
+            </tr>
+
+      </tbody>
+</table>
+<div *ngIf="ListEmpleadosComponent.length == 0" class="row mt-5">
+  <h5>No ha registros para mostrar</h5>
+</div>

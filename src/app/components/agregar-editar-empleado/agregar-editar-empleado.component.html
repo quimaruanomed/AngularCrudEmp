@@ -1,0 +1,26 @@
+<h3 class="mt-3">{{ action }}</h3>
+<form [formGroup]="AgregarEmpleado" (ngSubmit)="agregarEditarEmpleado()">
+  <div class="mb-3">
+    <label for="fnameS" class="form-label">Nombre y Apellidos</label>
+    <input formControlName="fnameS" type="text" class="form-control" id="fnameS">
+    <span *ngIf="AgregarEmpleado.get('fnameS')?.invalid && AgregarEmpleado.get('fnameS')?.touched" class="text-danger" autocomplete="off">
+      <strong>Obligatorio</strong>
+       </span>
+  </div>
+  <div class="mb-3">
+  <label for="position" class="form-label">Posicion</label>
+  <input formControlName = "position" type="text" class="form-control" id="position" autocomplete="off">
+  <span *ngIf="AgregarEmpleado.get('position')?.invalid && AgregarEmpleado.get('position')?.touched" class="text-danger" autocomplete="off">
+    <strong>Obligatorio</strong>
+     </span>
+  </div>
+  <div class="mb-3">
+  <label for="salary" class="form-label">Salario</label>
+  <input formControlName ="salary" type="number" class="form-control" id="salary" autocomplete="off">
+  <span *ngIf="AgregarEmpleado.get('salary')?.invalid && AgregarEmpleado.get('salary')?.touched" class="text-danger" autocomplete="off">
+    <strong>Obligatorio</strong>
+     </span>
+  </div>
+  <button type="submit" [disabled]="AgregarEmpleado.invalid" class="btn btn-primary float-end">Aceptar</button>
+  <button routerLink="/" type="button" class="btn btn-secondary">Volver</button>
+  </form>
